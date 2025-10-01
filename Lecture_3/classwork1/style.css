@@ -29,3 +29,25 @@ body{
     width: 500px;
     margin-right: 20px;
 }
+
+.div-2{
+    overflow: hidden;
+}
+
+.div-2 div {
+   float: left;
+   /* border: solid 1px green; */
+}
+
+.div-2 div:first-child{
+    width: 33%;
+}
+
+.div-2 div:nth-child(2){
+    width: 33%;
+    text-align: center;
+}
+
+.div-2 div:last-child{
+    width: 33%;
+}
