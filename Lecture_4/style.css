@@ -1,0 +1,21 @@
+.table-1{
+    border: solid 3px green;
+    width: 790px;
+    height: 570px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table-1 td, th {
+    border: solid 2px black;
+    padding: 8px;
+}
+
+.table-1 th{
+    background-color: aquamarine;
+}
+
+.table-1 tfoot td {
+    background-color: bisque;
+    text-align: center;
+}
