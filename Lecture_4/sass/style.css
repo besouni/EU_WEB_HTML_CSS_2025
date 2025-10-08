@@ -1,0 +1,44 @@
+body {
+  background-color: pink;
+}
+
+.table-2 {
+  width: 900px;
+  height: 400px;
+  border: solid 3px black;
+  border-collapse: collapse;
+}
+.table-2 td {
+  border: solid 2px green;
+  padding: 5px;
+}
+.table-2 tr td:first-child {
+  background-color: rgb(166, 58, 157);
+}
+.table-2 tr td:last-child {
+  background-color: rgb(166, 58, 157);
+}
+.table-2 tr td:nth-child(2) {
+  background-color: rgb(86, 212, 40);
+}
+.table-2 tr td:nth-child(3) {
+  background-color: rgb(86, 212, 40);
+}
+
+div {
+  width: 700px;
+  height: 100px;
+  border: solid 2px green;
+  background-color: rgb(234, 234, 113);
+  margin: 10px auto;
+  padding: 20px;
+}
+
+p {
+  width: 700px;
+  height: 20px;
+  border: solid 2px green;
+  background-color: rgb(138, 138, 205);
+  margin: 10px auto;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
