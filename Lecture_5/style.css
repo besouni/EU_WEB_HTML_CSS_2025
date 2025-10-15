@@ -1,1 +1,89 @@
-/*# sourceMappingURL=style.css.map */
+.div-5 {
+  text-align: center;
+  text-decoration: line-through;
+  color: blue;
+  font-size: 8em;
+}
+
+.container-1 {
+  width: 1200px;
+  min-height: 550px;
+  border: solid 5px green;
+  margin: auto;
+}
+.container-1 div {
+  width: 400px;
+  height: 150px;
+  border: solid 20px black;
+  background-color: aquamarine;
+}
+.container-1 .div-1-2 {
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  padding: 50px;
+}
+.container-1 .div-1-4 {
+  margin: 200px 40px 100px 0px;
+  padding: 40px 50px;
+  box-sizing: content-box;
+}
+
+.container-2 {
+  width: 1200px;
+  height: 550px;
+  border: solid 5px green;
+  margin: auto;
+  overflow: hidden;
+}
+.container-2 div {
+  width: 400px;
+  height: 150px;
+  border: solid 2px black;
+  background-color: aquamarine;
+}
+
+.container-3 {
+  width: 1200px;
+  height: 550px;
+  border: solid 5px green;
+  margin: auto;
+  overflow: scroll;
+}
+.container-3 div {
+  width: 400px;
+  height: 150px;
+  border: solid 2px black;
+  background-color: aquamarine;
+}
+
+.div-5, .div-4, .div-3 {
+  width: 1000px;
+  height: 300px;
+  margin: 10px auto;
+  background-color: antiquewhite;
+}
+
+.base_all_div {
+  width: 1000px;
+  height: 300px;
+  margin: 10px auto;
+  background-color: antiquewhite;
+}
+
+.div-1 {
+  border: dashed 15px red;
+}
+
+.div-2 {
+  border: dotted 15px green;
+}
+
+.div-3 {
+  border: solid 15px red;
+  font-size: 5em;
+}
+
+.div-4 {
+  border: double 15px green;
+}/*# sourceMappingURL=style.css.map */

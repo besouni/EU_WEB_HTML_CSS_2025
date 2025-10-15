@@ -1,0 +1,40 @@
+@use "base";
+@use "lecture5";
+
+%base_all_div{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+
+.base_all_div{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+
+.div-1{
+    border: dashed 15px red;
+}
+
+.div-2{
+    border: dotted 15px green;
+}
+
+.div-3{
+    @extend %base_all_div;
+    border: solid 15px red;
+    font-size: 5em;
+}
+
+.div-4{
+    @extend %base_all_div;
+    border: double 15px green;
+}
+
+.div-5{
+    @extend %base_all_div;
+    @extend %base_1;
+}

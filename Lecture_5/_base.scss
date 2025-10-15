@@ -1,0 +1,16 @@
+// *{
+//     box-sizing: border-box;
+// }
+
+%base_1{
+    text-align: center;
+    text-decoration: line-through;
+    color: blue;
+    font-size: 8em;
+}
+
+%base_2{
+    text-align: right;
+    text-decoration: overline;
+    color: red;
+}
