@@ -1,0 +1,38 @@
+body {
+  border: solid 5px black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: solid 1px black;
+  background-color: aquamarine;
+  position: relative;
+}
+.container div {
+  width: 150px;
+  height: 150px;
+  border: solid 2px green;
+  background: yellowgreen;
+  position: absolute;
+}
+.container div:nth-child(2) {
+  position: static;
+  margin: auto;
+}
+.container div:nth-child(3) {
+  top: 0px;
+  right: 0px;
+}
+.container div:nth-child(4) {
+  bottom: 0px;
+  left: 0px;
+}
+.container div:nth-child(5) {
+  bottom: 0px;
+  right: 0px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+$w:150px;
+$h:150px;
+
+body{
+    border: solid 5px black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: solid 1px black;
+    background-color: aquamarine;
+    position: relative;
+
+    div{
+        width: $w;
+        height: $h;
+        border: solid 2px green;
+        background: yellowgreen;
+        position:absolute;
+    }
+
+    div:nth-child(2){
+        position: static;
+        margin: auto;
+    }
+
+    div:nth-child(3){
+        top: 0px;
+        right: 0px;
+    }
+
+    div:nth-child(4){
+        bottom: 0px;
+        left: 0px;
+    }
+
+    div:nth-child(5){
+        bottom: 0px;
+        right: 0px;
+    }
+}
