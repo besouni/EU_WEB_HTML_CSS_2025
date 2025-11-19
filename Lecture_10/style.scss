@@ -1,0 +1,83 @@
+.nav{
+    margin: 100px auto;
+    width: 800px;
+    border: solid 2px gray;
+    font-size: 2em;
+
+    ul{
+        list-style: none;
+        width: 250px;
+        // border: solid 1px black;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    > ul > li > a{
+        color:blue;
+        text-decoration: none;
+        background-color: beige;
+        border-bottom: solid 1px silver;
+        display: block;
+        padding: 5px;
+    }
+
+    > ul > li > a:hover{
+        background-color: aqua;
+    }
+
+    > ul > li > ul a{
+        color: brown;
+        background-color: cadetblue;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    > a{
+        color: green;
+    }
+
+    > ul ul{
+        margin-left: 250px;
+        display: none;
+    }
+
+    > ul > li{
+        position: relative;
+    }
+
+    > ul > li:hover ul{
+        display: block;
+        position: absolute;
+        top:0;
+    } 
+}
+
+.forms{
+    width: 45%;
+    background-color: aqua;
+    border: solid 2px black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.forms input{
+    font-size: 2em;
+    padding: 8px;
+}
+
+.forms {
+    font-size: 2em;
+}
+
+.forms select{
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+.forms select option{
+     border-bottom: solid 2px black;
+     color: gray;
+}
