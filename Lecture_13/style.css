@@ -38,5 +38,44 @@
     animation-fill-mode: forwards;
 }
 
+.container-1{
+    width: 95%;
+    border: solid 4px gray;
+    margin: 10px auto;
+    min-height: 700px;
+}
+
+header, footer {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.content{
+    min-height: 700px;
+    padding: 0 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item1{
+    width: 59.5%;
+    background-color: blueviolet;
+    min-height: 400px;
+}
+
+.item2{
+    width: 39%;
+    background-color: rgb(124, 198, 28);
+    min-height: 400px;
+}
+
+.item3{
+    width: 48%;
+    background-color: rgb(223, 33, 147);
+    min-height: 400px;
+    margin-top: 20px;
+}
 
 
